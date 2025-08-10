@@ -113,6 +113,7 @@ Sorted list: [3, 7, 10, 15, 23, 45]
 ## 📋Problem 6: Merge Two Lists into One
 
 **Question**: Write a program to merge two lists into a single list.
+
 **Solution**: [View Code](Problem6.py)
 
 ```python
