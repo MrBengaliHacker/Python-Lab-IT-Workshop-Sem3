@@ -18,127 +18,124 @@ Squared Nested List: [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 ```
 ## 📋Problem 2: Generating a Nested List Using User Input
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to generate a nested list using user input.
 
 **Solution**: [View Code](Problem2.py)
 
 ```python
-# Define a list of numbers
-list = [10, 20, 30, 40, 50]
+rows = int(input("Enter number of rows: "))
+cols = int(input("Enter number of columns: "))
 
-# Using built-in sum() function
-total = sum(list)
+nested_list = []
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        value = int(input(f"Enter element at [{i}][{j}]: "))
+        row.append(value)
+    nested_list.append(row)
 
-# Output the result
-print("The sum of all elements in the list is:", total)
+print("Generated Nested List:", nested_list)
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Enter number of rows: 2
+Enter number of columns: 3
+Enter element at [0][0]: 1
+Enter element at [0][1]: 2
+Enter element at [0][2]: 3
+Enter element at [1][0]: 4
+Enter element at [1][1]: 5
+Enter element at [1][2]: 6
+Generated Nested List: [[1, 2, 3], [4, 5, 6]]
 ```
-## 📋Problem 3: Sum of All Elements in a List
+## 📋Problem 3: Create a Tuple Using User Input
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to create a tuple using user input.
 
 **Solution**: [View Code](Problem3.py)
 
 ```python
-# Define a list of numbers
-list = [10, 20, 30, 40, 50]
+elements = input("Enter tuple elements separated by space: ")
+tuple_data = tuple(map(int, elements.split()))
 
-# Using built-in sum() function
-total = sum(list)
-
-# Output the result
-print("The sum of all elements in the list is:", total)
+print("Created Tuple:", tuple_data)
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Enter tuple elements separated by space: 10 20 30 40 50
+Created Tuple: (10, 20, 30, 40, 50)
 ```
-## 📋Problem 4: Sum of All Elements in a List
+## 📋Problem 4: Find Length of Any Tuple
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to find length of a tuple.
 
 **Solution**: [View Code](Problem4.py)
 
 ```python
-# Define a list of numbers
-list = [10, 20, 30, 40, 50]
+tuple = (10, 20, 30, 40, 50)
 
-# Using built-in sum() function
-total = sum(list)
-
-# Output the result
-print("The sum of all elements in the list is:", total)
+print("Length of Tuple:", len(tuple))
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Length of Tuple: 5
 ```
-## 📋Problem 5: Sum of All Elements in a List
+## 📋Problem 5: Count Occurrences of an Element in a Tuple
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to count the occurrences of an element in a tuple.
 
 **Solution**: [View Code](Problem5.py)
 
 ```python
-# Define a list of numbers
-list = [10, 20, 30, 40, 50]
+tuple = (1, 2, 3, 2, 4, 2, 5, 2)
 
-# Using built-in sum() function
-total = sum(list)
+element = int(input("Enter element to count: "))
+count = tuple.count(element)
 
-# Output the result
-print("The sum of all elements in the list is:", total)
+print(f"{element} occurs {count} times in the tuple.")
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Enter element to count: 2
+2 occurs 4 times in the tuple.
 ```
-## 📋Problem 6: Sum of All Elements in a List
+## 📋Problem 6: Concatenate Two Tuples
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to concatenate two tuples.
 
 **Solution**: [View Code](Problem6.py)
 
 ```python
-# Define a list of numbers
-list = [10, 20, 30, 40, 50]
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
 
-# Using built-in sum() function
-total = sum(list)
-
-# Output the result
-print("The sum of all elements in the list is:", total)
+result = tuple1 + tuple2
+print("Concatenated Tuple:", result)
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Concatenated Tuple: (1, 2, 3, 4, 5, 6)
 ```
-## 📋Problem 7: Sum of All Elements in a List
+## 📋Problem 7: Convert List to Tuple
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Write a program to convert a list into a tuple.
 
 **Solution**: [View Code](Problem7.py)
 
 ```python
-# Define a list of numbers
 list = [10, 20, 30, 40, 50]
 
-# Using built-in sum() function
-total = sum(list)
+my_tuple = tuple(list)
 
-# Output the result
-print("The sum of all elements in the list is:", total)
+print("Converted Tuple:", my_tuple)
 ```
 ### OUTPUT
 
 ```
-The sum of all elements in the list is: 150
+Converted Tuple: (10, 20, 30, 40, 50)
 ```
