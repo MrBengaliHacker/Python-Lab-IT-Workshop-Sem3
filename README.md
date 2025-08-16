@@ -6,13 +6,6 @@ This repository contains Python programs, lab exercises, and related materials b
 
 ---
 
-## 📑 Contents
-
-- [Assignments](#-assignments)
-- [Homeworks](#-homeworks)
-
----
-
 ## 📂 Assignments
 - [Assignment 1](Assignment%201)
 - [Assignment 2](Assignment%202)
