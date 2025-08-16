@@ -4,7 +4,26 @@
 
 This repository contains Python programs, lab exercises, and related materials based on the syllabus for Sem 3. It is designed to assist students in practicing, revising, and learning Python programming effectively through hands-on work.
 
+---
+
+## 📑 Contents
+
+- [Assignments](#-assignments)
+- [Homeworks](#-homeworks)
+
+---
 
 ## 📂 Assignments
 - [Assignment 1](Assignment%201)
 - [Assignment 2](Assignment%202)
+
+---
+
+## 📝 Homeworks
+- [Homework 1 (04-08-25)](04-08-25_HW1)
+- [Homework 2 (11-08-25)](11-08-25_HW2)
+
+---
+
+## ⚖ License
+This repository is licensed under the [MIT License](LICENSE).
