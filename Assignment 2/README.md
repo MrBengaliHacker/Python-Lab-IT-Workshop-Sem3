@@ -58,7 +58,7 @@ Converted List: [1, 2, 3, 4, 5]
 ```
 ## 📋Program 4: Tuple Unpacking
 
-**Question**: Find the tuple from a list of tuples that has the maximum sum of elements.
+**Question**: Take a tuple and unpack its elements into variables and print them.
 
 **Solution**: [View Code](Program_4.py)
 
