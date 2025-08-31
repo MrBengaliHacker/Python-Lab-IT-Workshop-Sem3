@@ -18,7 +18,7 @@ for word, count in frequency.items():
 
 ```
 Enter a paragraph: Python is easy and Python is powerful
-Work frequency: 
+Word frequency: 
 powerful : 1    
 python : 2      
 is : 2
