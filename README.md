@@ -17,6 +17,8 @@ This repository contains Python programs, lab exercises, and related materials b
 ## 📝 Homeworks
 - [Homework 1 (04-08-25)](04-08-25_HW1)
 - [Homework 2 (11-08-25)](11-08-25_HW2)
+- [Homework 3 (01-09-25)](01-09-25_HW3)
+- [Homework 4 (08-09-25)](08-09-25_HW4)
 
 ---
 
