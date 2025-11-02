@@ -1,6 +1,6 @@
-## 📋Problem 1: Generate random number and check if it is prime
+## 📋Problem 1: Generate Random Number and Check if It Is Prime
 
-**Question**: Write a program to find the sum of all the elements in a list.
+**Question**: Generate random number and check if it is prime
 
 **Solution**: [View Code](Problem1.py)
 
@@ -104,18 +104,21 @@ Generated number: 41
 ```
 ## 📋Problem 5: Build a Proper Package with Program and Output
 
-**Question**: Build a proper Python package named number_utils that contains useful functions for working with numbers.
+**Question**: Build a proper Python package named `number_utils` that contains useful functions for working with numbers.  
 The package should include:
 
-A module to generate a random number.
+- A module to generate a random number.  
+- A module to check if a number is a perfect square.  
 
-A module to check if a number is a perfect square.
 Then, write a main program that imports and uses this package to display results.
+
+---
 
 **Solution**:
 
 **📁 Folder Structure**
 
+```
 PythonPackageDemo/
 │
 ├── number_utils/
@@ -124,9 +127,10 @@ PythonPackageDemo/
 │   └── math_check.py
 │
 └── main.py
+```
 
 
-**File: number_utils/init.py**
+**File: number_utils/__init__.py**
 ```python
 # This file makes number_utils a package
 ```
